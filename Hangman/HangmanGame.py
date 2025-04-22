@@ -1,4 +1,3 @@
-import random
 MAX_TRIES = 6
 HANGMAN_ASCII_ART = r"""Welcome to the game Hangman
   _    _                                         
