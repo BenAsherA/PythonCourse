@@ -11,7 +11,7 @@ HANGMAN_ASCII_ART = r"""Welcome to the game Hangman
 
 def prompt_player_for_guess():
     players_guess = input("Guess a letter\n")
-    print (players_guess)
+    print (players_guess.lower())
 
 print(HANGMAN_ASCII_ART, "\n",MAX_TRIES)
 prompt_player_for_guess()
